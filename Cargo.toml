@@ -1,0 +1,12 @@
+[package]
+name = "db-utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cita_trie = "4.0"
+derive_more = "0.99"
+hasher = "0.1"
+rocksdb = { version = "0.20", package = "ckb-rocksdb" }
